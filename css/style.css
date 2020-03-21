@@ -1,18 +1,44 @@
 body {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    color: black;
+    margin-bottom: 0px;
     background-image: url("../images/piscine\ 2.png");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
 }
 
-.containerOpacity {
+.navbar{
+    background-color: #E94D14 ;
+}
+.dropdown-menu{
+    background-color:#3DB5E3;
+   
+}
+
+/* img { 
+    width: 100%;
+} */
+
+.container-fluid {
+    /* display: flex;
+    flex-direction: column; */
+    color: black;
+    
+    /* background-repeat: no-repeat;
+    /* /* background-size: cover; */
+}
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+/*.containerOpacity {
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.5);
@@ -36,7 +62,7 @@ body {
 
 /*header*/
 
-header {
+/* header {
     height: 140px;
     background-color: #E94D14 ;
     display: flex;
@@ -65,11 +91,11 @@ h2 {
 }
 
 .constrution{
-    font-size: 54px
+    font-size: 54px */
 }/*  autre pages */
 
 /*nav*/
-nav{ 
+/* nav{ 
     width:100%;
     background-color:#3DB5E3;
 } 
@@ -226,7 +252,7 @@ nav li:hover .submenu{
 
 nav input[type=checkbox]:checked ~ ul{
     display: block;
-}
+} */
 
 /* nav {
     display:flex;
@@ -263,7 +289,7 @@ li a {
 } */
  
 /* section */
- nav ul  {
+ /* nav ul  {
     width: 100%;
     display: flex;  
     justify-content: space-around;
@@ -313,7 +339,7 @@ summary{
     ; 
     margin-right: 20px;
     margin-left: 20px;  
-}
+} */
 
 /* .partenaire{
     width: auto;
@@ -325,7 +351,7 @@ summary{
     height: auto;
 } */
 
- aside {
+ /* aside {
     width: 50%;
     height: 500px;
     margin-bottom: 40px;
@@ -335,12 +361,12 @@ summary{
 .fb {
     width: 400px;
     height: 500px;
-}
+} */
 
 
  /* footer */
 
- footer {
+ /* footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -402,7 +428,7 @@ summary{
         float: none;
         /* width: 250px;
         height: 125px;  */
-        margin-right: 10px;
+        /* margin-right: 10px;
         text-align: center;
     }
 
@@ -432,4 +458,4 @@ summary{
     }
 
     
-}
+}   */
