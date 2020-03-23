@@ -6,14 +6,11 @@ body {
 .navbar{
     background-color: #E94D14 ;
 }
+
 .dropdown-menu{
     background-color:#3DB5E3;
    
 }
-
-/* img { 
-    width: 100%;
-} */
 
 .container-fluid {
     /* display: flex;
