@@ -1,5 +1,4 @@
 body {
-    margin-bottom: 0px;
     background-image: url("../images/piscine\ 2.png");
 }
 
@@ -12,27 +11,27 @@ body {
    
 }
 
-.container-fluid {
-    /* display: flex;
-    flex-direction: column; */
-    color: black;
-    
-    /* background-repeat: no-repeat;
-    /* /* background-size: cover; */
+/* bouton envoyer */
+.btn-custom{
+    background-color: #3DB5E3;
 }
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
+footer{
+    margin-top: 50px;
+}
+/*  Extra small devices (portrait phones, less than 576px)
+    No media query for `xs` since this is the default in Bootstrap */
+
+/*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
+/*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
+/*  Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
 
-// Extra large devices (large desktops, 1200px and up)
+ /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
 
 /*.containerOpacity {
